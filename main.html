@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text To Speech Converter - GreatStack</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="hero">
+        <h1>Text To Speech <span>Converter</span></h1>
+        <textarea id="text-to-read" placeholder="Write anything here...."></textarea>
+        <div class="row">
+            <select id="voice-select"></select>
+            <button id="speak-btn"><i class="fas fa-play"></i>Listen</button>
+            <button id="record-btn"><i class="fas fa-microphone"></i>Record</button>
+            <a id="download-btn" download="speech.wav"><button><i class="fas fa-download"></i>Download</button></a>
+        </div>
+    </div>
+  <script src="main.js"></script>
+</body>
+</html>
