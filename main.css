@@ -7,7 +7,7 @@
 
 /* Body styles */
 body {
-    background: #f0f0f0; /* Light gray background */
+    background:linear-gradient(to bottom, black,rgb(15, 15, 61)); /* Light gray background */
     font-family: Arial, sans-serif; /* Change font family */
 }
 
@@ -26,20 +26,20 @@ body {
     font-size: 3rem; /* Increase font size */
     font-weight: 700; /* Bold font */
     margin-bottom: 20px; /* Adjust spacing */
-    color: #222;
+    color: #faf4f4;
     text-align: center;
 }
 
 .hero h1 span {
-    color: #ff2963; /* Pink color */
+    color: #b84f6b; /* Pink color */
 }
 
 /* Textarea styles */
 textarea {
     width: 80%; /* Adjust width */
     height: 200px; /* Reduce height */
-    background: #fff;
-    color: #333;
+    background: #150ba1;
+    color: #08fbca;
     font-size: 1.2rem; /* Increase font size */
     border: 2px solid #ccc; /* Light gray border */
     outline: 0;
